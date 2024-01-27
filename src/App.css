@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbarall {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #20172a;
+  color: white;
+  gap: 22px;
+  min-width: 100%;
+}
+
+.imagflecha {
+  height: 8px;
+  width: auto;
+}
+
+.headerall {
+  display: flex;
+  justify-content: space-between;
+  background-color: #faf7f8;
+}
+
+.textoheader {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+  margin-left: 140px;
+  margin-right: 160px;
+}
+
+.exptext {
+  font-size: 20px;
+}
+
+.imagenheader {
+  height: auto;
+  width: 750px;
+  margin-top: 0;
+}
+
+.buttonheader {
+  background-color: #D13E30;
+  color: whitesmoke;
+  width: 230px;
+  font-weight: bold;
+}
+
+.buttonheader:hover{
+  background-color: rgb(128, 35, 26);
+  color: #cacaca;
+}
+
+.vectorcar {
+  height: auto;
+  width: 15px;
+}
+
+.cardsall {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardindv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  margin-left: 0;
+}
+
+.carddata {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 0 5px rgba(120, 120, 120, 0.5);
+  width: 350px;
+  height: 420px;
+  padding: 10px;
+}
+
+.titlecard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttonscard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttomcard, .buttomcard:hover {
+  background-color: rgb(229, 229, 229);
+  border: 0px;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.imagcard {
+  height: 50px;
+  width: 50px;
+}
+
+
+.buttonred {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.redinfo {
+  color:#D13E30;
+  font-weight: bold;
+  width: 95px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.redinfo:hover {
+  color: #82271f;
+}
+
+.footerend {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 100px;
+  margin-top: 50px;
+  background-color: #20172a;
+  color: white;
+  gap: 22px;
+}
